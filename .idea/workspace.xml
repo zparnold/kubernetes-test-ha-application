@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed514eed-dcec-4a03-8772-8437620d2eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/net_pol_all_deny.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/network_policy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/pod_security_policy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/pod_security_policy_example.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/rbac.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/cluster_autoscaler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/with_autoscaler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/with_mysql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_autoscaler/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_autoscaler/startup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ha_mysql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ha_mysql/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ha_mysql/startup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_mysql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_mysql/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_mysql/startup.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/with_redis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/with_autoscaler/Dockerfile" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,20 +29,12 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>with</find>
-      <find>kubernetes-test</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>without</replace>
-    </replaceStrings>
-  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$/../../ygrene/toolshed/vendor" />
@@ -45,17 +43,24 @@
   </component>
   <component name="ProjectId" id="1UYOBYQnIqNJpPy3vOyMQ1es8HP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go&#10;yaml" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,26 +69,30 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/with_ha_mysql" />
+      <recent name="$PROJECT_DIR$/with_redis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes" />
+      <recent name="$PROJECT_DIR$/with_mysql" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/zparnold/kubernetes-test-ha-application/with_mysql">
+    <configuration name="go build github.com/zparnold/kubernetes-test-ha-application/with_mysql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="kubernetes-test-ha-application" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/with_mysql/main.go" />
+      <package value="github.com/zparnold/kubernetes-test-ha-application/with_mysql" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
         <envs />
@@ -92,24 +101,30 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/zparnold/kubernetes-test-ha-application/with_mysql" />
         <item itemvalue="Makefile.build" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="288" y="222" width="598" height="548" key="find.popup" timestamp="1587949850061">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="288" y="222" width="598" height="548" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1587949850061" />
   </component>
 </project>
