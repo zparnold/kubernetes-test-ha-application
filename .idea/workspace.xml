@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed514eed-dcec-4a03-8772-8437620d2eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kubernetes/cluster_autoscaler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/with_autoscaler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/with_mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_autoscaler/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_autoscaler/startup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_ha_mysql/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_ha_mysql/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_ha_mysql/startup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_mysql/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_mysql/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_mysql/startup.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/with_redis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/with_autoscaler/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/with_redis.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/with_redis.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/with_redis/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/with_redis/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

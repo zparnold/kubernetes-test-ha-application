@@ -21,7 +21,10 @@ func main() {
 	})
 
 	pong, err := client.Ping().Result()
-	fmt.Println(pong, err)
+	if err != nil {
+		fmt.Println(pong, err)
+		panic(err)
+	}
 
 	fmt.Println("Starting HTTP server")
 	http.HandleFunc("/get-number", func(w http.ResponseWriter, r *http.Request) {
